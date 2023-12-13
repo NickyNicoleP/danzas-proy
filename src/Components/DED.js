@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const DED = () => {
+export const DED = () =>{
   return (
     <div>
       <h1>Dedicación Especial</h1>

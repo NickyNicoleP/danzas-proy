@@ -12,7 +12,7 @@ import { ORU } from './Components/ORU';
 import { PND } from './Components/PND';
 import { PSI } from './Components/PSI';
 import { TJA} from './Components/TJA';
-import { DED } from './Components/ded';
+import { DED } from './Components/DED';
 function App() {
   return (
     <div className="App">

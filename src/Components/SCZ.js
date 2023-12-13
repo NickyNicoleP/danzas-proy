@@ -7,7 +7,7 @@ import img3 from '../assets/img/img3.jpg'; // Cambia la referencia a tu imagen J
 import fondo from '../assets/img/color-sharp.png'
 
 
-export const SCZ = ()=>{
+export const SCZ= ()=>{
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -27,39 +27,40 @@ export const SCZ = ()=>{
           items: 1
         }
       };
-      return(
+      return (
         <section className="scz" id="scz">
-            <Container>
-                <Row>
-                    <Col>
-                    <div className="scz-bx">
-              <h2>Danzas de Santa Cruz</h2>
-              <Carousel responsive={responsive} infinite={true} className="scz-slider">
-                <Carousel.Item>
-                  <img className="d-block w-100" src={img1} alt="Imagen 1" />
-                  <Carousel.Caption>
-                    <h5>Taquirari</h5>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img className="d-block w-100" src={img2} alt="Imagen 2" />
-                  <Carousel.Caption>
-                    <h5>Danzas Sarao</h5>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img className="d-block w-100" src={img3} alt="Imagen 3" />
-                  <Carousel.Caption>
-                    <h5>Chovena</h5>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-            <img className="background-image-left" src={fondo}></img>
+          <Container>
+            <Row>
+              <Col>
+                <div className="scz-bx">
+                  <h2>Danzas de Santa Cruz</h2>
+                  <Carousel responsive={responsive} infinite={true} className="scz-slider">
+                    <Carousel.Item>
+                      <img className="d-block w-100" src={img1} alt="Imagen 1" />
+                      <Carousel.Caption>
+                        <h5>Taquirari</h5>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="d-block w-100" src={img2} alt="Imagen 2" />
+                      <Carousel.Caption>
+                        <h5>Danza Sarao</h5>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img className="d-block w-100" src={img3} alt="Imagen 3" />
+                      <Carousel.Caption>
+                        <h5>Chovena</h5>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  </Carousel>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <img className="background-image-left" src={fondo} alt="Background" />
         </section>
-      )
-}
-export default SCZ;
+      );
+    };
+    
+    export default SCZ;

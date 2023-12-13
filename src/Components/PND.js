@@ -1,13 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css"
-import pn1 from '../assets/img/pn1.jpg'; // Cambia la referencia a tu imagen JPG
-import pn2 from '../assets/img/pn2.jpg'; // Cambia la referencia a tu imagen JPG
-import pn3 from '../assets/img/pn3.jpg'; // Cambia la referencia a tu imagen JPG
+import pn1 from '../assets/img/pn1.jpg'; 
+import pn2 from '../assets/img/pn2.jpg'; 
+import pn3 from '../assets/img/pn3.jpg'; 
 import fondo from '../assets/img/color-sharp.png'
 
 
-export const PND = ()=>{
+export const PND= ()=>{
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -50,7 +50,7 @@ export const PND = ()=>{
                     <Carousel.Item>
                       <img className="d-block w-100" src={pn3} alt="Imagen 3" />
                       <Carousel.Caption>
-                        <h5></h5>
+                        <h5>Pando</h5>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>
